@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6910dacf-6cb7-4b0e-ad4d-26696fc2c5e6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2017/Service/DoMucServices.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DoMucServices3.xsd" MetadataType="Schema" ID="b6cce0ce-575d-40fc-9ace-0d1e7c9af215" SourceId="1" SourceUrl="http://localhost:2017/Service/DoMucServices.svc?xsd=xsd2" />
+    <MetadataFile FileName="DoMucServices1.disco" MetadataType="Disco" ID="7ffe2256-2740-4b1a-b130-1851915d6666" SourceId="1" SourceUrl="http://localhost:2017/Service/DoMucServices.svc?disco" />
+    <MetadataFile FileName="DoMucServices31.xsd" MetadataType="Schema" ID="49a69a42-6f82-4606-af72-a876f78cc2f8" SourceId="1" SourceUrl="http://localhost:2017/Service/DoMucServices.svc?xsd=xsd0" />
+    <MetadataFile FileName="DoMucServices2.wsdl" MetadataType="Wsdl" ID="3660cd36-2b34-4b83-9853-472888540b4e" SourceId="1" SourceUrl="http://localhost:2017/Service/DoMucServices.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="DoMucServices21.wsdl" MetadataType="Wsdl" ID="d67559fe-8a0a-4b0c-b88b-02d9bc39d8cc" SourceId="1" SourceUrl="http://localhost:2017/Service/DoMucServices.svc?wsdl" />
+    <MetadataFile FileName="DoMucServices32.xsd" MetadataType="Schema" ID="a28e81e7-a75f-4168-adf8-9a775054a7f1" SourceId="1" SourceUrl="http://localhost:2017/Service/DoMucServices.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

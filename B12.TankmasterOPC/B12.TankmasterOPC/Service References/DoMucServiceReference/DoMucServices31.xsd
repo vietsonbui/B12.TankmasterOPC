@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2017/Service/DoMucServices.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Entity" />
+  <xs:element name="DoWork">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DoWorkResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Hello">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HelloResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloIm">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HelloImResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="HelloImResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinDoMucBe">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="be" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinDoMucBeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Entity" minOccurs="0" name="LayThongTinDoMucBeResult" nillable="true" type="q1:DoMuc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinDoMucKho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="kho" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinDoMucKhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Entity" minOccurs="0" name="LayThongTinDoMucKhoResult" nillable="true" type="q2:ArrayOfDoMuc" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendDataDoMuc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="TankName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Level" type="xs:double" />
+        <xs:element minOccurs="0" name="LevelRate" type="xs:double" />
+        <xs:element minOccurs="0" name="AvgTemp" type="xs:double" />
+        <xs:element minOccurs="0" name="FlowRate" type="xs:double" />
+        <xs:element minOccurs="0" name="TOV" type="xs:double" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendDataDoMucResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SendDataDoMucResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
